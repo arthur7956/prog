@@ -1,4 +1,4 @@
-//Este é o exercício nùmero 4 do Bloco A//
+//Este é o exercício nùmero 1 do Bloco B//
 #include <stdio.h>
 typedef struct {
     char nome[50];

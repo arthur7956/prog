@@ -1,3 +1,4 @@
+//esse é o exercicio 2 do bloco B//
 #include <stdio.h>
 
 typedef struct {
