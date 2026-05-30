@@ -8,7 +8,7 @@ typedef struct {
 int main() {
     int n;
     
-    printf("Digite a quantidade de Jogaores: ");
+    printf("Digite a quantidade de Jogadores: ");
     scanf("%d", &n);
 
     jogador ranking[n];
