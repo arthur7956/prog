@@ -1,4 +1,4 @@
-//Exercício 4 aula (Desafio): Busca por nome
+//Exercício 4 aula 6.1 (Desafio): Busca por nome
 #include <stdio.h>
 
 typedef struct {
