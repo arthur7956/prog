@@ -1,3 +1,4 @@
+//aula 08 ex 2
 #include<stdio.h>
 
 int soma (int n) {
@@ -10,6 +11,7 @@ int soma (int n) {
 int main() {
     int n;
     printf("Entre com seu número: ");
-    scanf("%d")
+    scanf("%d", &n);
     
+    printf("\nA soma de 1 a %d é: %d\n", n, soma(n));
 }
