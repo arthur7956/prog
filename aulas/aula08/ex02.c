@@ -13,6 +13,10 @@ int main () {
     
     printf("Digite a BASE da potencia: ");
     scanf("%d", &b);
-    printf("\nDigite o Expoente")
+    printf("\nDigite o EXPOENTE da potencia: ");
+    scanf("%d", &e);
     
+    printf("\nResultado: %d\n", potencia(b, e));
+    
+    return 0;
 }
