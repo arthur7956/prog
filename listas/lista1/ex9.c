@@ -33,6 +33,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("\nNome do aluno %d: ",  i + 1);
         scanf(" %[^\n]", turma[i].nome);
+(0! = 1). Exemplo: fatorial(4) retorna 24.
         printf("Digite as 3 notas: ");
         scanf("%f %f %f", &turma[i].nota1, &turma[i].nota2, &turma[i].nota3);
 

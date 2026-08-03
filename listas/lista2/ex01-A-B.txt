@@ -1,0 +1,16 @@
+Questão 1 — Fundamentos (0,15 pt)
+
+a) (0,10) Toda função recursiva precisa de dois ingredientes obrigatórios. Quais são eles? Ex-
+plique o papel de cada um.
+
+Resposta:
+Toda função precisa de um caso-base e um caso recursivo. O caso-base é a situação mais simples que a função pode encontrar, 
+como por exemplo se x == 0 a função retorna 1, ja o caso recursivo vai dividindo esse mesmo problema em parte menores até ele chegar
+no caso-base.
+
+b) (0,05) Ordene do mais rápido ao mais lento: O(n2), O(log n), O(n), O(1).
+
+Resposta:
+O(1), O(log n), O(n), O(n²)
+
++ rapido --------------> + lento
