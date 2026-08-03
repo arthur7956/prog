@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int contarChar (char s[], int i, char c) {
-    if (s[i] == \0) {
+    if (s[i] == '\0') {
         return 0;
     }
     
@@ -16,13 +16,14 @@ int contarChar (char s[], int i, char c) {
 }
 
 int main() {
-    char s[];
+    char s[50];
 
     printf("Digite uma palavra: ");
     scanf("%s", s);
 
     int total = contarChar(s, 0, 'a');
 
+    printf("O caractere 'a' aparece %d vezes.\n", total); 
 
-
+    return 0;
 }
