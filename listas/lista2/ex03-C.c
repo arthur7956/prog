@@ -1,6 +1,9 @@
+
+//Questao 3 - Recursao sobre dados (obrigatarias)
 //c) Palindromo. int ehPalindromo(char s[], int ini, int fim) que retorna 1 se a pala-
 //vra e um palindromo (ex.: "arara"), e 0 caso contrario. Considere a string ja em minusculas e
 //sem espacos.
+
 #include <stdio.h>
 int ehPalindromo (char s[], int ini, int fim) {
     if (ini >= fim) {

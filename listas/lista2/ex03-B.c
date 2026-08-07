@@ -1,6 +1,8 @@
+//Questao 3 - Recursao sobre dados (obrigatarias)
 //b) Contar caracteres. int contarChar(char s[], int i, char c) que retorna quantas
 //vezes o caractere c aparece em s a partir do indice i (chamada inicial com i=0). Exemplo:
 //contarChar("banana", 0, 'a') retorna 3.
+
 #include <stdio.h>
 
 int contarChar (char s[], int i, char c) {

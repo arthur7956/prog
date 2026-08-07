@@ -1,3 +1,7 @@
+//Questao 3 - Recursao sobre dados (obrigatarias)
+//a) Soma dos digitos. int somaDigitos(int n) que retorna a soma dos algarismos de n.
+//Exemplo: somaDigitos(472) -> 4 + 7 + 2 = 13.
+
 #include <stdio.h>
 
 int somaDigitos (int n) {

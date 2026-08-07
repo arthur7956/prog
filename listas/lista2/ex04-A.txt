@@ -1,0 +1,16 @@
+a) (0,05) Quantos passos no pior caso a busca binaria realiza numa lista ordenada de 512 itens?
+Justifique. Lembrete: a cada passo o espaco de busca e dividido por 2.
+
+Resposta:
+Em uma lista ja ordenada que possui 512 itens, a busca binaria realizaria no pior dos casos 9
+operacoes, pois a cada passo ele dividde o espaco de busca por dois.
+
+Passo 1: 512 itens -> 256 itens restantes
+Passo 2: 256 itens -> 128 itens restantes
+Passo 3: 128 itens -> 64  itens restantes
+Passo 4: 64  itens -> 32  itens restantes
+Passo 5: 32  itens -> 16  itens restantes
+Passo 6: 16  itens -> 8   itens restantes
+Passo 7: 8   itens -> 4   itens restantes
+Passo 8: 4   itens -> 2   itens restantes
+Passo 9: 2   itens -> 1   item restante
